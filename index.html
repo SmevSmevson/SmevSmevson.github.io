@@ -1,32 +1,60 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>IoTit</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-			<img src='IoTit_Logo_Dark.png' />
-        		<h1>Hi there, I'm Hank Quinlan!</h1>
-				<p src='iotRead'></p>
-				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-			</ul>
-		</footer>
-	</body>
+
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }}</title>
+    <meta name="author" content="XSHELL inc.">
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link type="text/css" rel="stylesheet" href="static/css/normalize.css">
+    <link type="text/css" rel="stylesheet" href="static/css/skeleton.css">
+    <link type="text/css" rel="stylesheet" href="static/css/style.css">
+    <!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="http://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <!-- Favicon
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" href="static/img/favicon.png" type="img/png">
+</head>
+
+<body>
+
+    <div class="header">
+        <header class="container">
+            <div class="row">
+                <div class="two columns">
+                    <a href="https://isaax.io/"><img src="static/svg/isaax_logo_w.svg" class="logodata"></a>
+                </div>
+                <div class="six columns">
+                    <h1>IoTit Flashing Tool</h1>
+                    <h2>Command Line Utility for flashing/initializing Linux based single board computers. </h2>
+                </div>
+                <div class="four columns">
+                    <button type="button" onclick="location.href='https://github.com/xshellinc/iotit'">View on GitHub</button>
+                    <p class="small"><a href="https://www.apache.org/licenses/LICENSE-2.0">license: Apache License Version 2.0</a></p>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div>
+        <article>
+            <div class="overview">
+                <section class="container">
+                    {{ content }}
+                </section>
+        </article>
+        <div class="footer">
+            <footer class="container small">
+                <p><a href="https://github.com/xshellinc/iotit">View on GitHub</a></p>
+                <p><a href="https://www.apache.org/licenses/LICENSE-2.0">license: Apache License Version 2.0</a></p>
+                <p><a href="https://isaax.io/">isaax</a></p>
+                <p><a href="https://xshell.io/">XSHELL inc.<a></p>
+            </footer>
+        </div>
+    </div>
+</body>
+
 </html>
