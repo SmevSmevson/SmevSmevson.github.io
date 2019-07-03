@@ -1,60 +1,816 @@
-
-<!doctype html>
-<html lang="ja">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>{{ page.title }}</title>
-    <meta name="author" content="XSHELL inc.">
-    <!-- CSS
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link type="text/css" rel="stylesheet" href="static/css/normalize.css">
-    <link type="text/css" rel="stylesheet" href="static/css/skeleton.css">
-    <link type="text/css" rel="stylesheet" href="static/css/style.css">
-    <!-- FONT
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link href="http://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
-    <!-- Favicon
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="icon" href="static/img/favicon.png" type="img/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kevin McCormack's Portfolio</title>
 </head>
-
 <body>
+    <nav id="navigation">
+        <ul>
+            <li>
+                <a href="#personal-details">
+                    personal
+                </a>
+            </li>
+            <li>
+                <a href="#projects">
+                    projects
+                </a>
+            </li>
+            <li>
+                <a href="#skills">
+                    skills
+                </a>
+            </li>
+            <li>
+                <a href="#employment-history">
+                    employment
+                </a>
+            </li>
+            <li>
+                <a href="#educational-history">
+                    educational
+                </a>
+            </li>
+        </ul>
+    </nav>
 
-    <div class="header">
-        <header class="container">
-            <div class="row">
-                <div class="two columns">
-                    <a href="https://isaax.io/"><img src="static/svg/isaax_logo_w.svg" class="logodata"></a>
-                </div>
-                <div class="six columns">
-                    <h1>IoTit Flashing Tool</h1>
-                    <h2>Command Line Utility for flashing/initializing Linux based single board computers. </h2>
-                </div>
-                <div class="four columns">
-                    <button type="button" onclick="location.href='https://github.com/xshellinc/iotit'">View on GitHub</button>
-                    <p class="small"><a href="https://www.apache.org/licenses/LICENSE-2.0">license: Apache License Version 2.0</a></p>
-                </div>
+    <div id="personal-details">
+        <div>
+            <img src="./media/IMG_2676.JPG" alt="profile picture">
+        </div>
+        <div>
+            <h1>Kevin McCormack</h1>
+            <a href="https://github.com/SmevSmevson"><small>aka. Smev Smevson</small></a>
+            <div id="about-me">
+                <strong>
+                    Hi, I'm Kevin.
+                </strong>
+                <br><br>
+                <p>
+                    I'm usually very calm and relaxed, I do thinks at my own pace. <br>
+                    I would discribe myself as a creative coder, not that I'm coming up with creative solutions all the time <br>
+                    but rather I like when code meets design and together makes something beautiful.<br>
+                    I'm always keen to start new projects but more often then not I don't finish them.<br>
+                    Always coming up with crazy buisness ideas that would probably never work.<br>
+                    I would say I have a passion for video games, both creating and playing (but sadly not enough time to play them these days).
+                    I would love to dip my toes into some VR game development.<br>
+                    I also got into web development reciently and gotta say its a complex but intresting space that I would love to learn more about.<br>
+                </p>
+                <br>
+                <p>
+                    I've been working since 2004 and I've been working in Japan since 2012 and have had quite a varied career.<br>
+                    I love to try new things and accept new challanges as you might see from my previous jobs,<br>
+                    I've been a store clerk, butler, customer support, indie game developer, teacher, husband, UX engineer, front-end engineer, father.
+                    (...being a husband/father sometimes feels like a job)<br>
+                    Variaty is the spice of life! Wonder what I'll be doing next!?<br>
+                </p>
             </div>
-        </header>
-    </div>
-    <div>
-        <article>
-            <div class="overview">
-                <section class="container">
-                    {{ content }}
-                </section>
-        </article>
-        <div class="footer">
-            <footer class="container small">
-                <p><a href="https://github.com/xshellinc/iotit">View on GitHub</a></p>
-                <p><a href="https://www.apache.org/licenses/LICENSE-2.0">license: Apache License Version 2.0</a></p>
-                <p><a href="https://isaax.io/">isaax</a></p>
-                <p><a href="https://xshell.io/">XSHELL inc.<a></p>
-            </footer>
         </div>
     </div>
-</body>
 
+
+    <div id="projects">
+        <h2>projects</h2>
+        <ul>
+            <li>
+                <a href="https://imyme.jp/">
+                    <svg viewBox="0 0 32 32">
+                        <title>logo-and-name</title>
+                        <path style="fill: rgba(0, 0, 0, 0); stroke:#eee; stroke-width:.5px;" d="M12.796,19.28838a12.2229,12.2229,0,0,0,2.44592-.2472c.22794-.04648.45112-.10116.672-.15948.2209.05832.44408.113.672.15948a12.22355,12.22355,0,0,0,2.44591.24721m-7.389-2.57646a11.079,11.079,0,0,0,4.271,2.16977,11.07914,11.07914,0,0,0,4.271-2.16977m0-.04761a8.58815,8.58815,0,0,1-1.6266-.2077,8.41843,8.41843,0,0,1-2.64443-1.0918,8.4179,8.4179,0,0,1-2.64444,1.0918,8.58805,8.58805,0,0,1-1.62659.2077m1.18338-4.86263a8.10159,8.10159,0,0,0,3.08765,3.56313,8.10158,8.10158,0,0,0,3.08761-3.563M15.939,5.02522a.02508.02508,0,0,0-.05014,0c-.63221,3.41232-4.28534,7.4347-4.28534,10.97406a4.4286,4.4286,0,0,0,4.31046,4.68843,4.4286,4.4286,0,0,0,4.31046-4.68843C20.2244,12.45991,16.571,8.43753,15.939,5.02522Z"></path>
+                        <path style="fill: #eee; stroke:none;" d="M24.84281,24.70657a1.42284,1.42284,0,0,0-.36087-.92309,1.38966,1.38966,0,0,0-.87691-.4524,1.39463,1.39463,0,0,0-1.52111,1.05055,1.36958,1.36958,0,0,0,.129.98516,1.38821,1.38821,0,0,0,1.225.72637l.01956-.00012a1.69992,1.69992,0,0,0,.48358-.07429,1.312,1.312,0,0,0,.73559-.52292.19836.19836,0,0,0-.05831-.28183.20581.20581,0,0,0-.27058.085,1.03444,1.03444,0,0,1-.51582.37174,1.33494,1.33494,0,0,1-.37741.06388h-.00284a1.01954,1.01954,0,0,1-.9059-.54648,1,1,0,0,1-.101-.30086l2.21021.01365A.19124.19124,0,0,0,24.84281,24.70657ZM22.44455,24.528q.00486-.0288.01129-.05739a1.02036,1.02036,0,0,1,.98909-.78966.94223.94223,0,0,1,.1185.00741,1.02481,1.02481,0,0,1,.64345.34038.98712.98712,0,0,1,.23427.48688ZM21.028,24.425v1.47846a.20176.20176,0,0,1-.40351,0V24.38956a.67081.67081,0,0,0-.80974-.65536.68691.68691,0,0,0-.52952.68149v1.48775a.20176.20176,0,0,1-.40351,0V24.38956a.67081.67081,0,0,0-.80978-.65535.687.687,0,0,0-.52954.68155v1.48768a.20173.20173,0,0,1-.40345,0V24.42492A1.0968,1.0968,0,0,1,18.054,23.3278a1.07143,1.07143,0,0,1,1.02947.43782,1.07134,1.07134,0,0,1,1.02939-.43783A1.09687,1.09687,0,0,1,21.028,24.425Zm-4.80142-.83026L14.605,26.89023a.19634.19634,0,0,1-.35221-.17364l.57335-1.1775-1.015-1.94044a.19572.19572,0,0,1,.1734-.28642.19664.19664,0,0,1,.17872.10559l.8772,1.68822.83419-1.68491a.19622.19622,0,0,1,.352.17359Zm-3.37436.83026v1.47846a.20176.20176,0,0,1-.40351,0V24.38956a.67081.67081,0,0,0-.80974-.65536.68691.68691,0,0,0-.52952.68149v1.48775a.20175.20175,0,0,1-.4035,0V24.38956a.67081.67081,0,0,0-.80979-.65535.687.687,0,0,0-.52954.68155v1.48768a.20173.20173,0,0,1-.40345,0V24.42492a1.0968,1.0968,0,0,1,.91506-1.09712,1.07141,1.07141,0,0,1,1.02946.43782,1.07135,1.07135,0,0,1,1.02939-.43783A1.09686,1.09686,0,0,1,12.85224,24.425Zm-5.24653-.917V25.929a.181.181,0,0,1-.181.181H7.39724a.181.181,0,0,1-.181-.181V23.508a.181.181,0,0,1,.181-.181h.02743A.181.181,0,0,1,7.60571,23.508Zm.059-.90563a.25379.25379,0,1,1-.25379-.25379A.2541.2541,0,0,1,7.66475,22.60233Z" style="fill: black; stroke: none;"></path>
+                    </svg>
+                    <!-- <img src="https://via.placeholder.com/150" alt=""> -->
+                    <strong>imyme</strong>
+                    <div>
+                        <span>2018-2019</span><span>professional</span><span>front-end</span><span>@XShell</span>
+                    </div>
+                    <p>A web application that matches a persons skin type to their perfect skin products. Take the survey see your results and buy the perfect soap, oil or syrum for your skin.</p>
+                </a>
+            </li>
+            <li>
+                <a href="https://isaax.io/">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 60 60">
+                        <title>isaax_logo</title> 
+                        <g id="isaax-name" data-name="isaax-name">
+                            <path d="M10.62,40.38a.23.23,0,0,1-.23.23H8.94a.23.23,0,0,1-.23-.23V38.93a.26.26,0,0,1,.23-.23h1.45a.23.23,0,0,1,.23.23Zm0,2.37a.23.23,0,0,0-.23-.23H8.94a.26.26,0,0,0-.23.23v8.72a.23.23,0,0,0,.23.23h1.45a.23.23,0,0,0,.23-.23h0Z" class="fill"></path> 
+                            <path d="M15.11,44.77a3.9,3.9,0,0,1,1.65-.33h4a.23.23,0,0,0,.23-.23h0V42.76a.23.23,0,0,0-.23-.23h-4c-2.4,0-4.21,1.23-4.21,2.87v.44a.23.23,0,0,0,.13.21l5.7,3a.21.21,0,0,1,.1.29h0a.24.24,0,0,1-.1.1,3.81,3.81,0,0,1-1.63.33h-4a.23.23,0,0,0-.23.23h0v1.45a.23.23,0,0,0,.23.23h4c2.39,0,4.21-1.23,4.21-2.87V48.4a.26.26,0,0,0-.14-.21l-5.72-3a.21.21,0,0,1-.1-.29h0a.24.24,0,0,1,.1-.1Z" class="fill"></path> 
+                            <path d="M27.07,42.53h-4a.23.23,0,0,0-.23.23h0v1.45a.23.23,0,0,0,.23.23h4c1.42,0,2.29.62,2.29,1v3.44c0,.34-.87,1-2.29,1H25a.26.26,0,0,1-.23-.23V49c0-.34.88-1,2.3-1h1.3a.23.23,0,0,0,.23-.23h0V46.39a.23.23,0,0,0-.23-.23h-1.3c-2.4,0-4.21,1.23-4.21,2.87v2.45a.23.23,0,0,0,.23.23h4c2.4,0,4.2-1.24,4.2-2.87V45.4C31.28,43.76,29.47,42.53,27.07,42.53Z" class="fill"></path> 
+                            <path d="M37.24,42.53h-4a.23.23,0,0,0-.23.23h0v1.45a.23.23,0,0,0,.23.23h4c1.41,0,2.3.62,2.3,1v3.44c0,.34-.88,1-2.3,1H35.18a.23.23,0,0,1-.23-.23V49c0-.34.87-1,2.29-1h1.3a.23.23,0,0,0,.23-.23h0V46.39a.23.23,0,0,0-.23-.23h-1.3C34.84,46.16,33,47.39,33,49v2.45a.23.23,0,0,0,.23.23h4c2.4,0,4.21-1.24,4.21-2.87V45.4C41.45,43.76,39.64,42.53,37.24,42.53Z" class="fill"></path> 
+                            <path d="M51.55,51.48a.26.26,0,0,1-.23.23H49.86a.24.24,0,0,1-.23-.22h0a2.77,2.77,0,0,0-.73-2L48.2,49a.22.22,0,0,1,0-.32h0l1.22-.94a.24.24,0,0,1,.28,0l.37.29a4.53,4.53,0,0,1,1.48,3.49Zm-8.42-8.72a4.58,4.58,0,0,0,1.49,3.49l.36.27a.24.24,0,0,0,.28,0l1.23-.93a.22.22,0,0,0,0-.32h0l-.7-.53a2.84,2.84,0,0,1-.74-2h0a.22.22,0,0,0-.22-.22H43.38a.23.23,0,0,0-.23.23Zm8.18-.23H49.85a.23.23,0,0,0-.23.23h0a2.92,2.92,0,0,1-.69,1.94L44.62,48a4.63,4.63,0,0,0-1.49,3.49h0a.23.23,0,0,0,.23.23h1.46a.23.23,0,0,0,.23-.23h0a2.79,2.79,0,0,1,.73-2l4.29-3.25a4.66,4.66,0,0,0,1.48-3.49h0a.23.23,0,0,0-.23-.23Z" class="fill"></path>
+                        </g> 
+                        <path d="M14.6,18a.27.27,0,0,0-.28-.08,8.61,8.61,0,0,0-6,10.59A8.88,8.88,0,0,0,9.53,31.1a.3.3,0,0,0,.22.12h0A.29.29,0,0,0,10,31l4.66-12.77A.24.24,0,0,0,14.6,18Z" class="fill"></path>
+                        <path d="M18.15,26a4.78,4.78,0,0,1,4.77-4.79h.25a.3.3,0,0,0,.25-.18L27.93,8.69a.28.28,0,0,0-.18-.34h0a8,8,0,0,0-10,5.24A7.87,7.87,0,0,0,17.36,16a8.91,8.91,0,0,0,.14,1.46.61.61,0,0,1,0,.19L11.88,33.1a.29.29,0,0,0,.11.31,8.65,8.65,0,0,0,4.63,1.38h1.61a.3.3,0,0,0,.25-.18l1.63-4.49a.26.26,0,0,0-.08-.3A4.8,4.8,0,0,1,18.15,26Z" class="fill"></path>
+                        <path d="M25.21,26a2.3,2.3,0,1,1-2.31-2.29h0A2.28,2.28,0,0,1,25.21,26Z" class="fill logo-eye-left"></path>
+                        <path d="M32.3,26a4.78,4.78,0,0,1,4.79-4.79h.23a.29.29,0,0,0,.26-.16l.54-1.48v-.06a3.45,3.45,0,0,0-2.42-4.23h0a3.41,3.41,0,0,0-2,.06h-.07a.22.22,0,0,1-.24-.2h0a8.06,8.06,0,0,0-2.86-5.3.27.27,0,0,0-.17-.06h-.07a.26.26,0,0,0-.18.16l-4.35,12a.3.3,0,0,0,.08.3,4.79,4.79,0,0,1-2.9,8.57h-.22a.33.33,0,0,0-.26.18L21.2,34.42a.3.3,0,0,0,.16.35h11a.3.3,0,0,0,.25-.18l1.63-4.49a.27.27,0,0,0-.09-.3A4.83,4.83,0,0,1,32.3,26Z" class="fill"></path>
+                        <path d="M37.06,23.71A2.3,2.3,0,1,0,39.35,26v0h0a2.29,2.29,0,0,0-2.27-2.29Z" class="fill logo-eye-right"></path>
+                        <path d="M47.67,19.5A8.06,8.06,0,0,0,41,19.08a.22.22,0,0,0-.16.16l-1,2.67a.28.28,0,0,0,.08.3A4.79,4.79,0,0,1,37,30.79h-.23a.3.3,0,0,0-.25.18l-1.25,3.45a.26.26,0,0,0,.16.34.14.14,0,0,0,.09,0h6.58a.27.27,0,0,0,.25-.17L47.8,19.84A.26.26,0,0,0,47.67,19.5Z" class="fill"></path>
+                        <path d="M50.23,21.6a.28.28,0,0,0-.21-.1h0a.27.27,0,0,0-.21.17L45.19,34.25a.29.29,0,0,0,.17.35h.14A8.12,8.12,0,0,0,51.84,25a8.23,8.23,0,0,0-1.61-3.45Z" class="fill"></path>
+                    </svg>
+                    <!-- <img src="https://via.placeholder.com/150" alt=""> -->
+                    <strong>isaax</strong>
+                    <div>
+                        <span>2017-2018</span><span>professional</span><span>front-end</span><span>@XShell</span>
+                    </div>
+                    <p>IoT deployment and managment made easy. Connect your IoT devices to isaax and you can configure it within the isaax app. isaax also makes it easy to print logs using a simple print statment and deploy updates to your code by pusing from your repository to devices.</p>
+                </a>
+            </li>
+            <li>
+                <a href="https://gamejolt.com/games/unpredictaball/229302">
+                    <img class="contain" src="./media/unpredictaball.png.webp" alt="unpredictaball logo">
+                    <strong>unpredictaball</strong>
+                    <div>
+                        <span>2017</span><span>personal</span><span>gameplay programmer</span><span>visual artist</span>
+                    </div>
+                    <p>Dodge-ball with a difference! A free local multiplayer game for up to 4 players that was made in under 48 hours. Throw your ball at other players for points but don't ever expect your ball to go straight.</p>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/newlovegames/">
+                    <img src="./media/capitalist_img.jpg" alt="capitalist logo and game image">
+                    <strong>capitlist</strong>
+                    <div>
+                        <span>2016</span><span>professional</span><span>gameplay programmer</span><span>@nulove</span>
+                    </div>
+                    <p>1 miner adrift in space defending their haul from 3 plundering pirates. A 1 vs 3 online multiplayer tactical shooter. Choose your class for different playstyles and abilities.</p>
+                </a>
+            </li>
+            <li>
+                <a href="http://stickybaby.strikingly.com/">
+                    <img src="./media/sticky_baby.png.webp" alt="sticky baby logo">
+                    <strong>sticky baby</strong>
+                    <div>
+                        <span>2013</span><span>ongoing</span><span>never finish</span><span>personal</span><span>gameplay programmer</span><span>visual artist</span>
+                    </div>
+                    <p>Roll, shop, save your family! Sticky Baby is the first project by Zesty Games. Play as Baby as you try to save enough money to go to space to save your family from aliens.</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="skills">
+        <h2>skills</h2>
+        <ul>
+            <li>
+                <div>JavaScript</div>
+                <div>★★★★☆</div>
+            </li>
+            <li>
+                <div>ReactJS</div>
+                <div>★★★☆☆</div>
+            </li>
+            <li>
+                <div>VueJS</div>
+                <div>★★★★☆</div>
+            </li>
+            <li>
+                <div>HTML</div>
+                <div>★★★★★</div>
+            </li>
+            <li>
+                <div>CSS</div>
+                <div>★★★★★</div>
+            </li>
+            <li>
+                <div>SCSS</div>
+                <div>★★★★★</div>
+            </li>
+            <li>
+                <div>C#</div>
+                <div>★★★★☆</div>
+            </li>
+            <li>
+                <div>C++</div>
+                <div>★★★☆☆</div>
+            </li>
+            <li>
+                <div>Java</div>
+                <div>★★★☆☆</div>
+            </li>
+            <li>
+                <div>HLSL</div>
+                <div>★★☆☆☆</div>
+            </li>
+            <li>
+                <div>GLSL</div>
+                <div>★★☆☆☆</div>
+            </li>
+            <li>
+                <div>VS Code</div>
+                <div>★★★★☆</div>
+            </li>
+            <li>
+                <div>Adobe Illustrator </div>
+                <div>★★★★☆</div>
+            </li>
+            <li>
+                <div>Just in Mind UX </div>
+                <div>★★★★★</div>
+            </li>
+            <li>
+                <div>Git</div>
+                <div>★★★★☆</div>
+            </li>
+            <li>
+                <div>GitHub</div>
+                <div>★★★★☆</div>
+            </li>
+            <li>
+                <div>Unity</div>
+                <div>★★★★★</div>
+            </li>
+            <li>
+                <div>Mono Develop</div>
+                <div>★★★★★</div>
+            </li>
+            <li>
+                <div>Unreal Engine</div>
+                <div>★★☆☆☆</div>
+            </li>
+            <li>
+                <div>3DSMax</div>
+                <div>★★★☆☆</div>
+            </li>
+            <li>
+                <div>Blender</div>
+                <div>★★★★☆</div>
+            </li>
+            <li>
+                <div>Z Brush</div>
+                <div>★★★☆☆</div>
+            </li>
+            <li>
+                <div>Adobe Photoshop</div>
+                <div>★★★★☆</div>
+            </li>
+            <li>
+                <div>GIMP</div>
+                <div>★★★★☆</div>
+            </li>
+            <li>
+                <div>MS Word</div>
+                <div>★★★★★</div>
+            </li>
+            <li>
+                <div>MS Excel</div>
+                <div>★★★★★</div>
+            </li>
+            <li>
+                <div>MS Powerpoint</div>
+                <div>★★★★★</div>
+            </li>
+        </ul>
+    </div>
+
+    <div id="employment-history">
+        <h2>recient employment</h2>
+        <ul>
+            <li>
+                <a href="https://xshell.io/">
+                    <strong>2017/06/25 – current</strong>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 300 100">
+                            <title>Asset 1</title>
+                            <path class="xshell-logo" d="M19.72412,42.09455,0,0H7.49046l16.1449,35.83063m6.50553,6.26392L49.865,0H42.37455L26.22965,35.83063m27.96783,6.26392L73.9216,0H66.43114L50.28624,35.83063m-26.65088,0-3.91124,6.26392m0,3.05963L0,87.24874H7.49046L23.63536,51.4181m66.076-6.26392L69.98721,87.24874h7.49046L93.62257,51.4181m-67.39292,0,16.1449,35.83064H49.865L30.14089,45.15418M23.63536,51.4181l-3.91124-6.26392m91.54659,1.57565V0H105.2791V88.69872h5.99161V46.72983m26.29688,0V88.69872h5.99161V0h-5.99161V46.72983m27.62914-.25061h0V38.461h0V8.01821h0V0h-5.99161V88.69872h5.97869V80.68051h.01292ZM212.5233,0h-5.99161V88.69872h5.96775V80.68051h.02386Zm43.997,0h-5.99161V88.69872h5.96775V80.68051h.02386ZM81.44615,48.64835V42.70367H62.10392v5.94468Zm51.64086,0V42.70367h-17.3993v5.94468Zm61.028,0V42.70367H169.10992v5.94468ZM196.74,5.94468V0h-27.63V5.94468Zm0,82.754V82.754h-27.63v5.94468Zm47.03236,0V82.754h-27.63v5.94468Zm43.997,0V82.754h-27.63v5.94468Z"/>
+                        </svg>
+                    </div>
+                    <!-- <img src="https://via.placeholder.com/150" alt=""> -->
+                    <strong>XShell: <i>UX Engineer</i></strong>
+                    <ul>
+                        <li>Creating and iterating wireframes for websites and web applications</li>
+                        <li>Making attractive marketing emails to enhance user engagement with our products</li>
+                        <li>Front end programming using VueJS for both in-house and client projects</li>
+                        <li>Styling components using custom CSS,SASS and Bootstrap</li>
+                    </ul>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/newlovegames/">
+                    <strong>2015/11/09 – 2016/04</strong>
+                    <div>
+                        <img src="./media/nulove_logo.png" alt="nulove logo">
+                    </div>
+                    <strong>Newlove Games: <i>Freelance Programmer</i></strong>
+                    <ul>
+                        <li>UI and menu programming</li>
+                        <li>Intractable objects and Gameplay programming</li>
+                        <li>Syncing players actions using Photon server</li>
+                    </ul>
+                </a>
+            </li>
+            <li>
+                <a href="http://www.growing-trees.com/">
+                    <strong>2013/09/20 – 2017/07</strong>
+                    <div>
+                        <img src="./media/lt_logo.jpg" alt="nulove logo">
+                    </div>
+                    <strong>Learning Tree: <i>Pre-school and after-school English teacher</i></strong>
+                    <ul>
+                        <li>Teaching children between 3-12 years of age</li>
+                        <li>Class size up to 18 students</li>
+                        <li>Teaching reading, writing, phonics, speaking and Eiken classes</li>
+                        <li>Organising and arranging school events</li>
+                        <li>Modifying and Improving part of the school curriculum and creating new content</li>
+                        <li>Promoted twice during employment</li>
+                    </ul>
+                </a>
+            </li>
+        </ul>
+
+        <h2>older stuff / employment</h2>
+        <ul>
+            <li>
+                <a>
+                    <strong>2013/04 - 2013/08</strong>
+                    <strong>Tibanne: <i>Overseas Customer support</i></strong>
+                    <ul>
+                        <li>Customer Support</li>
+                        <li>Creating generic responses for customer queries</li>
+                        <li>Checking customer identification for Anti Money Laundering procedures</li>
+                    </ul>
+                </a>
+            </li>
+            <li>
+                <a>
+                    <strong>2012/11 - 2013/03/14</strong>
+                    <strong>Butlers Café: <i>Waiter / Butler</i></strong>
+                    <ul>
+                        <li>Table preparation, food delivery, cleaning</li>
+                        <li>Hospitality, Customer Service</li>
+                        <li>Teaching conversational English</li>
+                        <li>Training new staff members</li>
+                    </ul>
+                </a>
+            </li>
+            <li>
+                <a>
+                    <strong>2007 - 2012</strong>
+                    <strong>Movies@Swords: <i>Retail Supervisor</i></strong>
+                    <ul>
+                        <li>In charge of staff in retail, Stock Management and Cleaning</li>
+                        <li>Customer Service, Staff Training, Phone enquiries/ sales</li>
+                        <li>From 2011 I was also given the role of projectionist which also included roles such
+                            as putting movies on in time, creating trailer blocks and projector maintenance</li>
+                    </ul>
+                </a>
+            </li>
+            <li>
+                <a>
+                    <strong>2004 - 2007</strong>
+                    <strong>C&Ts: <i>Shop Assistant</i></strong>
+                    <ul>
+                        <li>Stock Management</li>
+                        <li>Cleaning</li>
+                        <li>Customer Service</li>
+                    </ul>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- 
+        Education
+        
+        2007 - 2011 
+        BSc(Hons) Computing, 2.1 
+        Dundalk Institute of Technology , Dublin Road, Dundalk
+        https://www.dkit.ie
+        
+        2005 - 2007 
+        Leaving certificate
+        Coláiste Choilm CBS, Dublin Road, Swords Results: Honors: 4 Ordinary: 3
+        
+        2002 – 2005
+        Junior certificate
+        Coláiste Choilm CBS, Dublin Road, Swords Results: Honors: 7 Ordinary: 2 Common: 1
+     -->
+
+    <div id="educational-history">
+        <h2>education</h2>
+        <ul>
+            <li>
+                <a>
+                    <div>2007 - 2011</div>
+                    <div>
+                        <strong>BSc(Hons) Comstronguting, 2.1</strong>
+                        <p>Dundalk Institute of Technology</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a>
+                    <div>2005 - 2007</div>
+                    <div>
+                        <strong>Leaving certificate</strong>
+                        <p>Coláiste Choilm CBS</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a>
+                    <div>2007 - 2011</div>
+                    <div>
+                        <strong>Junior certificate</strong>
+                        <p>Coláiste Choilm CBS</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+</body>
 </html>
+<link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
+<style>
+    :root {
+        --primary-bg-color: #231f30;
+        --primary-green: #01d840;
+        --primary-navy-g: #4b55c5;
+        --primary-navy: #7593cb;
+        --primary-text-color: #eee;
+        --primary-gradient: linear-gradient(45deg,var(--primary-green),var(--primary-navy-g));
+        --flex-card: 0 1 20rem;
+        --section-padding: 2rem;
+        --paragraph-padding: 2rem;
+        --section-margin: 30rem 0;
+
+
+    }
+
+    @media only screen and (max-width: 700px){
+        :root {
+            --section-padding: 0rem;
+            --paragraph-padding: .5rem;
+            --section-margin: 10rem 0;
+        }
+    }
+
+    body {
+        color: var(--primary-text-color);
+        background-color: var(--primary-bg-color);
+        font-family: 'Nunito Sans', sans-serif;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    h1,h2 {
+        position: relative;
+        padding: 0 1rem;
+        margin: 1rem 0;
+        background-color: var(--primary-bg-color);
+        width: max-content;
+    }
+
+    a, a:link, a:visited, a:link:visited{
+        color: var(--primary-navy);
+        text-decoration:none;
+        transition: all 160ms ease-in-out;
+    }
+
+    a:hover, a:link:hover{
+        color: var(--primary-green)
+    }
+
+    h1::after, h2::after {
+        content: "";
+        position: absolute;
+        top: .1rem;
+        left: .1rem;
+        bottom: -.1rem;
+        right: -.1rem;
+        background: var(--primary-gradient);
+        z-index: -1;
+    }
+
+    #navigation {
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        background-color: var(--primary-bg-color);
+        z-index: 1000;
+    }
+
+    /* @media only screen and (max-width: 700px){
+        #navigation {
+            width: 100vw;
+            top: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+        #navigation>ul {
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: flex-end;
+        }
+    } */
+
+    #navigation>ul {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    #navigation>ul>li {
+        list-style: none;
+        padding: 0 1rem;
+        margin: .5rem .1rem;
+        position: relative;
+        background-color: var(--primary-bg-color);
+    }
+
+    #navigation>ul>li::after {
+        content: "";
+        position: absolute;
+        top: 0rem;
+        left: 0rem;
+        bottom: 0rem;
+        right: 0rem;
+        background: var(--primary-gradient);
+        z-index: -1;
+        transition: all 300ms ease-in-out;
+    }
+
+    #navigation>ul>li:hover::after {
+        content: "";
+        position: absolute;
+        top: .1rem;
+        left: .1rem;
+        bottom: -.1rem;
+        right: -.1rem;
+        background: var(--primary-gradient);
+        z-index: -1;
+    }
+
+    #personal-details {
+        display: flex;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        margin-top: 5rem;
+    }
+
+    #personal-details>div:first-child>img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    #personal-details>div:first-child {
+        flex:1 0 calc(30vw - 4rem);
+        padding: 2rem;
+        object-fit: cover;
+        height: 30rem;
+        object-position: 50% 75%;
+        position: relative;
+    }
+
+    #personal-details > div:first-child::after {
+        content: "";
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        bottom: -1rem;
+        right: -1rem;
+        margin: 2rem;
+        background: var(--primary-gradient);
+        z-index: -1;
+    }
+
+    #personal-details>div:last-child {
+        flex:0 0 calc(70vw - 4rem);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: var(--paragraph-padding);
+    }
+
+    #projects{
+        padding: var(--section-padding);
+        margin: var(--section-margin);
+    }
+
+    #projects>ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #projects>ul>li {
+        flex: var(--flex-card);
+        list-style: none;
+        margin: 1rem;
+        padding: 1rem;
+        position: relative;
+        background-color: var(--primary-bg-color);
+    }
+
+    #projects>ul>li::after {
+        content: "";
+        position: absolute;
+        top: 0rem;
+        left: 0rem;
+        bottom: 0rem;
+        right: 0rem;
+        background: var(--primary-gradient);
+        z-index: -1;
+        transition: all 300ms ease-in-out;
+    }
+
+    #projects>ul>li:hover::after {
+        content: "";
+        position: absolute;
+        top: .1rem;
+        left: .1rem;
+        bottom: -.1rem;
+        right: -.1rem;
+        background: var(--primary-gradient);
+        z-index: -1;
+    }
+
+    #projects>ul>li>a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #projects>ul>li>a>img {
+        width: 100%;
+        height: 20rem;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    #projects>ul>li>a>strong {
+        font-size: 2.5em;
+        margin: .5rem auto;
+    }
+
+    #projects>ul>li>a>div {
+        align-self: flex-start;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 1rem 0;
+    }
+
+    #projects>ul>li>a>div>span {
+        padding: .1rem 1rem;
+        margin: .1rem;
+        border-radius: 10rem;
+        background: var(--primary-gradient);
+        color: var(--primary-text-color);
+    }
+
+    #skills {
+        padding: var(--section-padding);
+        margin: var(--section-margin);
+    }
+
+    #skills>ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #skills>ul>li {
+        list-style: none;
+        padding: .5rem 2rem;
+        margin: .25rem;
+        border-radius: 10rem;
+        background: var(--primary-gradient);
+        color: var(--primary-text-color);
+        text-align: center;
+    }
+
+    #employment-history {
+        padding: var(--section-padding);
+        margin: var(--section-margin);
+
+    }
+
+    #employment-history>ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #employment-history>ul>li {
+        flex: var(--flex-card);
+        list-style: none;
+        margin: 1rem;
+        padding: 1rem;
+        position: relative;
+        background-color: var(--primary-bg-color);
+    }
+
+    #employment-history>ul>li::after {
+        content: "";
+        position: absolute;
+        top: 0rem;
+        left: 0rem;
+        bottom: 0rem;
+        right: 0rem;
+        background: var(--primary-gradient);
+        z-index: -1;
+        transition: all 300ms ease-in-out;
+    }
+
+    #employment-history>ul>li:hover::after {
+        content: "";
+        position: absolute;
+        top: .1rem;
+        left: .1rem;
+        bottom: -.1rem;
+        right: -.1rem;
+        background: var(--primary-gradient);
+        z-index: -1;
+    }
+
+    #employment-history>ul>li>a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+
+    #employment-history>ul>li>a>div {
+        height: 20rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem 0;
+    }
+
+    #employment-history>ul>li>a>div>img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 50% -5%;
+    }
+
+    #employment-history>ul:last-of-type>li {
+        flex: 0 0 15rem;
+    }
+
+    #educational-history {
+        padding: var(--section-padding);
+        margin: var(--section-margin);
+    }
+
+    #educational-history>ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #educational-history>ul>li {
+        flex: var(--flex-card);
+        list-style: none;
+        margin: 1rem;
+        padding: 1rem;
+        position: relative;
+        background-color: var(--primary-bg-color);
+    }
+
+    #educational-history>ul>li::after {
+        content: "";
+        position: absolute;
+        top: 0rem;
+        left: 0rem;
+        bottom: 0rem;
+        right: 0rem;
+        background: var(--primary-gradient);
+        z-index: -1;
+        transition: all 300ms ease-in-out;
+    }
+
+    #educational-history>ul>li:hover::after {
+        content: "";
+        position: absolute;
+        top: .1rem;
+        left: .1rem;
+        bottom: -.1rem;
+        right: -.1rem;
+        background: var(--primary-gradient);
+        z-index: -1;
+    }
+
+    .fill {
+        fill: #7593cb
+    }
+
+    .contain {
+        object-fit: contain !important;
+    }
+
+    .xshell-logo {
+        fill: #bf5461;
+    }
+</style>
