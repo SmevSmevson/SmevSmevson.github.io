@@ -9,27 +9,27 @@
 <body>
     <nav id="navigation">
         <ul>
-            <li>
+            <li class="polka-dot polka-dot__small" style="--primary-bg-color: #510275; --primary-link: #eee;">
                 <a href="#personal-details">
                     personal
                 </a>
             </li>
-            <li>
-                <a href="#projects">
-                    projects
-                </a>
-            </li>
-            <li>
+            <li class="stripe-bg__small" style="--primary-bg-color: #dda011; --primary-link: #eee;">
                 <a href="#skills">
                     skills
                 </a>
             </li>
-            <li>
+            <li class="circles" style="--primary-bg-color: #84c12a; --primary-link: #eee;">
+                <a href="#projects">
+                    projects
+                </a>
+            </li>
+            <li class="waves" style="--primary-bg-color: #2285ce; --primary-link: #eee;">
                 <a href="#employment-history">
                     employment
                 </a>
             </li>
-            <li>
+            <li class="polka-dot" style="--primary-bg-color: #bd5900; --primary-link: #eee;">
                 <a href="#educational-history">
                     education
                 </a>
@@ -37,9 +37,9 @@
         </ul>
     </nav>
 
-    <div id="personal-details">
+    <div id="personal-details" class="polka-dot polka-dot__small" style="--primary-bg-color: #510275">
         <div>
-            <img src="./media/IMG_2676.JPG" alt="profile picture">
+            <img src="./media/IMG_2676.JPG" alt="profile picture" class="profile-img">
         </div>
         <div>
             <h1>Kevin McCormack</h1>
@@ -50,6 +50,9 @@
                 </strong>
                 <br><br>
                 <p>
+                    I love to be creative! I make games and websites. <br>
+                </p>
+                <!-- <p>
                     I'm usually very calm and relaxed, I do thinks at my own pace. <br>
                     I would describe myself as a creative coder, not that I'm coming up with creative solutions all the time <br>
                     but rather I like when code meets design and together makes something beautiful.<br>
@@ -66,14 +69,124 @@
                     I've been a store clerk, butler, customer support, indie game developer, teacher, husband, UX engineer, front-end engineer, father.
                     (...being a husband/father sometimes feels like a job)<br>
                     Variety is the spice of life! Wonder what I'll be doing next!?<br>
-                </p>
+                </p> -->
             </div>
         </div>
     </div>
 
+    <div id="skills" class="stripe-bg__small" style="--primary-bg-color: #dda011">
+        <h2 class="section-heading">skills</h2>
+        <ul>
+            <li>
+                <div>JavaScript</div>
+                <div class="skill-bar">
+                    <span style="left: 90%;"></span>
+                    <span>90%</span>
+                </div>
+            </li>
+            <li>
+                <div>TypeScript</div>
+                <div class="skill-bar">
+                    <span style="left: 60%;"></span>
+                    <span>60%</span>
+                </div>
+            </li>
+            <li>
+                <div>ReactJS</div>
+                <div class="skill-bar">
+                    <span style="left: 75%;"></span>
+                    <span>75%</span>
+                </div>
+            </li>
+            <li>
+                <div>VueJS</div>
+                <div class="skill-bar">
+                    <span style="left: 80%;"></span>
+                    <span>80%</span>
+                </div>
+            </li>
+            <li>
+                <div>HTML</div>
+                <div class="skill-bar">
+                    <span style="left: 100%;"></span>
+                    <span>100%</span>
+                </div>
+            </li>
+            <li>
+                <div>CSS</div>
+                <div class="skill-bar">
+                    <span style="left: 100%;"></span>
+                    <span>100%</span>
+                </div>
+            </li>
+            <li>
+                <div>SCSS</div>
+                <div class="skill-bar">
+                    <span style="left: 100%;"></span>
+                    <span>100%</span>
+                </div>
+            </li>
+            <li>
+                <div>C#</div>
+                <div class="skill-bar">
+                    <span style="left: 80%;"></span>
+                    <span>80%</span>
+                </div>
+            </li>
+            <li>
+                <div>VS Code</div>
+                <div class="skill-bar">
+                    <span style="left: 80%;"></span>
+                    <span>80%</span>
+                </div>
+            </li>
+            <li>
+                <div>Adobe Illustrator </div>
+                <div class="skill-bar">
+                    <span style="left: 80%;"></span>
+                    <span>80%</span>
+                </div>
+            </li>
+            <li>
+                <div>Just in Mind UX </div>
+                <div class="skill-bar">
+                    <span style="left: 100%;"></span>
+                    <span>100%</span>
+                </div>
+            </li>
+            <li>
+                <div>Git</div>
+                <div class="skill-bar">
+                    <span style="left: 80%;"></span>
+                    <span>80%</span>
+                </div>
+            </li>
+            <li>
+                <div>GitHub</div>
+                <div class="skill-bar">
+                    <span style="left: 80%;"></span>
+                    <span>80%</span>
+                </div>
+            </li>
+            <li>
+                <div>Unity</div>
+                <div class="skill-bar">
+                    <span style="left: 100%;"></span>
+                    <span>100%</span>
+                </div>
+            </li>
+            <li>
+                <div>Blender</div>
+                <div class="skill-bar">
+                    <span style="left: 80%;"></span>
+                    <span>80%</span>
+                </div>
+            </li>
+        </ul>
+    </div>
 
-    <div id="projects">
-        <h2>projects</h2>
+    <div id="projects" class="circles" style="--primary-bg-color: #84c12a; --primary-link: #970952;">
+        <h2 class="section-heading">projects</h2>
         <ul>
             <li>
                 <a href="https://imyme.jp/">
@@ -85,7 +198,7 @@
                     <!-- <img src="https://via.placeholder.com/150" alt=""> -->
                     <strong>imyme</strong>
                     <div>
-                        <span>2018-2019</span><span>professional</span><span>front-end</span><span>@XShell</span>
+                        <span>2018-2019</span><span>professional</span><span>front-end</span><span>@XShell</span><span>@Kimelab</span>
                     </div>
                     <p>A web application that matches a persons skin type to their perfect skin products. Take the survey see your results and buy the perfect soap, oil or serum for your skin.</p>
                 </a>
@@ -132,7 +245,7 @@
                     <img src="./media/capitalist_img.jpg" alt="capitalist logo and game image">
                     <strong>capitlist</strong>
                     <div>
-                        <span>2016</span><span>professional</span><span>gameplay programmer</span><span>@nulove</span>
+                        <span>2016</span><span>professional</span><span>gameplay programmer</span><span>@newlove</span>
                     </div>
                     <p>1 miner adrift in space defending their haul from 3 plundering pirates. A 1 vs 3 online multiplayer tactical shooter. Choose your class for different play styles and abilities.</p>
                 </a>
@@ -150,131 +263,34 @@
         </ul>
     </div>
 
-    <div id="skills">
-        <h2>skills</h2>
+    <div id="employment-history" class="waves" style="--primary-bg-color: #2285ce">
+        <h2 class="section-heading">recent employment</h2>
         <ul>
             <li>
-                <div>JavaScript</div>
-                <div>★★★★☆</div>
+                <a href="http://kimelab.com/">
+                    <div>
+                        <img src="http://kimelab.com/wp-content/themes/kimelab/img/kimelab_logo.png
+                        " alt="kimelab logo" class="kimelab-logo">
+                    </div>
+                    <!-- <img src="https://via.placeholder.com/150" alt=""> -->
+                    <strong class="job-title">Kimelab: <i>Front-end Engineer</i></strong>
+                    <strong>2019&#47;09&#47;09 – current</strong>
+                    <ul>
+                        <li>Add TypeScript to the application to improve development debugging</li>
+                        <li>Mointor and reduced errors on the application using Sentry</li>
+                        <li>Add features that allow interaction with the application and store application</li>
+                        <li>Improve lighthouse performance score from 7 to 95</li>
+                    </ul>
+                </a>
             </li>
-            <li>
-                <div>ReactJS</div>
-                <div>★★★☆☆</div>
-            </li>
-            <li>
-                <div>VueJS</div>
-                <div>★★★★☆</div>
-            </li>
-            <li>
-                <div>HTML</div>
-                <div>★★★★★</div>
-            </li>
-            <li>
-                <div>CSS</div>
-                <div>★★★★★</div>
-            </li>
-            <li>
-                <div>SCSS</div>
-                <div>★★★★★</div>
-            </li>
-            <li>
-                <div>C#</div>
-                <div>★★★★☆</div>
-            </li>
-            <li>
-                <div>C++</div>
-                <div>★★★☆☆</div>
-            </li>
-            <li>
-                <div>Java</div>
-                <div>★★★☆☆</div>
-            </li>
-            <li>
-                <div>HLSL</div>
-                <div>★★☆☆☆</div>
-            </li>
-            <li>
-                <div>GLSL</div>
-                <div>★★☆☆☆</div>
-            </li>
-            <li>
-                <div>VS Code</div>
-                <div>★★★★☆</div>
-            </li>
-            <li>
-                <div>Adobe Illustrator </div>
-                <div>★★★★☆</div>
-            </li>
-            <li>
-                <div>Just in Mind UX </div>
-                <div>★★★★★</div>
-            </li>
-            <li>
-                <div>Git</div>
-                <div>★★★★☆</div>
-            </li>
-            <li>
-                <div>GitHub</div>
-                <div>★★★★☆</div>
-            </li>
-            <li>
-                <div>Unity</div>
-                <div>★★★★★</div>
-            </li>
-            <li>
-                <div>Mono Develop</div>
-                <div>★★★★★</div>
-            </li>
-            <li>
-                <div>Unreal Engine</div>
-                <div>★★☆☆☆</div>
-            </li>
-            <li>
-                <div>3DSMax</div>
-                <div>★★★☆☆</div>
-            </li>
-            <li>
-                <div>Blender</div>
-                <div>★★★★☆</div>
-            </li>
-            <li>
-                <div>Z Brush</div>
-                <div>★★★☆☆</div>
-            </li>
-            <li>
-                <div>Adobe Photoshop</div>
-                <div>★★★★☆</div>
-            </li>
-            <li>
-                <div>GIMP</div>
-                <div>★★★★☆</div>
-            </li>
-            <li>
-                <div>MS Word</div>
-                <div>★★★★★</div>
-            </li>
-            <li>
-                <div>MS Excel</div>
-                <div>★★★★★</div>
-            </li>
-            <li>
-                <div>MS Powerpoint</div>
-                <div>★★★★★</div>
-            </li>
-        </ul>
-    </div>
-
-    <div id="employment-history">
-        <h2>recent employment</h2>
-        <ul>
             <li>
                 <a href="https://xshell.io/">
-                    <strong>2017&#47;06&#47;25 – current</strong>
                     <div>
                         <img src="./media/xshell_logo.png" alt="xshell logo">
                     </div>
                     <!-- <img src="https://via.placeholder.com/150" alt=""> -->
-                    <strong>XShell: <i>UX Engineer</i></strong>
+                    <strong class="job-title">XShell: <i>UX Engineer</i></strong>
+                    <strong>2017&#47;06&#47;25 – 2019&#47;09</strong>
                     <ul>
                         <li>Creating and iterating wireframes for websites and web applications</li>
                         <li>Making attractive marketing emails to enhance user engagement with our products</li>
@@ -285,11 +301,11 @@
             </li>
             <li>
                 <a href="https://www.facebook.com/newlovegames/">
-                    <strong>2015&#47;11&#47;09 – 2016&#47;04</strong>
                     <div>
                         <img src="./media/nulove_logo.png" alt="nulove logo">
                     </div>
-                    <strong>Newlove Games: <i>Freelance Programmer</i></strong>
+                    <strong class="job-title">Newlove Games: <i>Freelance Programmer</i></strong>
+                    <strong>2015&#47;11&#47;09 – 2016&#47;04</strong>
                     <ul>
                         <li>UI and menu programming</li>
                         <li>Intractable objects and Gameplay programming</li>
@@ -299,11 +315,11 @@
             </li>
             <li>
                 <a href="http://www.growing-trees.com/">
-                    <strong>2013&#47;09&#47;20 – 2017&#47;07</strong>
                     <div>
                         <img src="./media/lt_logo.jpg" alt="nulove logo">
                     </div>
-                    <strong>Learning Tree: <i>Pre-school and after-school English teacher</i></strong>
+                    <strong class="job-title">Learning Tree: <i>Pre-school and after-school English teacher</i></strong>
+                    <strong>2013&#47;09&#47;20 – 2017&#47;07</strong>
                     <ul>
                         <li>Teaching children between 3-12 years of age</li>
                         <li>Class size up to 18 students</li>
@@ -316,12 +332,12 @@
             </li>
         </ul>
 
-        <h2>older stuff &#47; employment</h2>
+        <h2>other employment</h2>
         <ul>
             <li>
                 <a>
+                    <strong class="job-title">Tibanne: <i>Overseas Customer support</i></strong>
                     <strong>2013&#47;04 - 2013&#47;08</strong>
-                    <strong>Tibanne: <i>Overseas Customer support</i></strong>
                     <ul>
                         <li>Customer Support</li>
                         <li>Creating generic responses for customer queries</li>
@@ -331,8 +347,8 @@
             </li>
             <li>
                 <a>
+                    <strong class="job-title">Butlers Café: <i>Waiter &#47; Butler</i></strong>
                     <strong>2012&#47;11 - 2013&#47;03&#47;14</strong>
-                    <strong>Butlers Café: <i>Waiter &#47; Butler</i></strong>
                     <ul>
                         <li>Table preparation, food delivery, cleaning</li>
                         <li>Hospitality, Customer Service</li>
@@ -343,8 +359,8 @@
             </li>
             <li>
                 <a>
+                    <strong class="job-title">Movies@Swords: <i>Retail Supervisor</i></strong>
                     <strong>2007 - 2012</strong>
-                    <strong>Movies@Swords: <i>Retail Supervisor</i></strong>
                     <ul>
                         <li>In charge of staff in retail, Stock Management and Cleaning</li>
                         <li>Customer Service, Staff Training, Phone enquiries&#47; sales</li>
@@ -355,8 +371,8 @@
             </li>
             <li>
                 <a>
+                    <strong class="job-title">C&Ts: <i>Shop Assistant</i></strong>
                     <strong>2004 - 2007</strong>
-                    <strong>C&Ts: <i>Shop Assistant</i></strong>
                     <ul>
                         <li>Stock Management</li>
                         <li>Cleaning</li>
@@ -367,52 +383,23 @@
         </ul>
     </div>
 
-    <!-- 
-        Education
-        
-        2007 - 2011 
-        BSc(Hons) Computing, 2.1 
-        Dundalk Institute of Technology , Dublin Road, Dundalk
-        https://www.dkit.ie
-        
-        2005 - 2007 
-        Leaving certificate
-        Coláiste Choilm CBS, Dublin Road, Swords Results: Honors: 4 Ordinary: 3
-        
-        2002 – 2005
-        Junior certificate
-        Coláiste Choilm CBS, Dublin Road, Swords Results: Honors: 7 Ordinary: 2 Common: 1
-     -->
-
-    <div id="educational-history">
-        <h2>education</h2>
+    <div id="educational-history" class="polka-dot" style="--primary-bg-color: #bd5900">
+        <h2 class="section-heading">education</h2>
         <ul>
             <li>
-                <a>
-                    <div>2007 - 2011</div>
-                    <div>
-                        <strong>BSc(Hons) Comstronguting, 2.1</strong>
-                        <p>Dundalk Institute of Technology</p>
-                    </div>
-                </a>
+                <p class="school">Dundalk Institute of Technology</p>
+                <strong>BSc(Hons) Comstronguting, 2.1</strong>
+                <div>2007 - 2011</div>
             </li>
             <li>
-                <a>
-                    <div>2005 - 2007</div>
-                    <div>
-                        <strong>Leaving certificate</strong>
-                        <p>Coláiste Choilm CBS</p>
-                    </div>
-                </a>
+                <p class="school">Coláiste Choilm CBS</p>
+                <strong>Leaving certificate</strong>
+                <div>2005 - 2007</div>
             </li>
             <li>
-                <a>
-                    <div>2007 - 2011</div>
-                    <div>
-                        <strong>Junior certificate</strong>
-                        <p>Coláiste Choilm CBS</p>
-                    </div>
-                </a>
+                <p class="school">Coláiste Choilm CBS</p>
+                <strong>Junior certificate</strong>
+                <div>2007 - 2011</div>
             </li>
         </ul>
     </div>
@@ -422,23 +409,26 @@
 <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
 <style>
     :root {
+        --personal-details-color: #540d75;
+        --primary-link: #e83390;
+        --primary-link-hover: #fffd80;
         --primary-bg-color: #231f30;
         --primary-green: #01d840;
         --primary-navy-g: #4b55c5;
         --primary-navy: #7593cb;
         --primary-text-color: #eee;
         --primary-gradient: linear-gradient(45deg,var(--primary-green),var(--primary-navy-g));
+        --primary-gradient-r: linear-gradient(45deg,#908,#0ab);
         --flex-card: 0 1 20rem;
-        --section-padding: 2rem;
+        --section-padding: 0rem 2rem 16rem 2rem;
+        --section-heading-margin: -3rem auto 18rem auto;
         --paragraph-padding: 2rem;
-        --section-margin: 30rem 0;
-
-
+        --section-margin: 0rem 0;
     }
 
     @media only screen and (max-width: 700px){
         :root {
-            --section-padding: 0rem;
+            --section-padding: 0rem 0rem 5rem 0rem;
             --paragraph-padding: .5rem;
             --section-margin: 10rem 0;
         }
@@ -464,92 +454,48 @@
     }
 
     a, a:link, a:visited, a:link:visited{
-        color: var(--primary-navy);
+        color: var(--primary-link);
         text-decoration:none;
         transition: all 160ms ease-in-out;
     }
 
     a:hover, a:link:hover{
-        color: var(--primary-green)
-    }
-
-    h1::after, h2::after {
-        content: "";
-        position: absolute;
-        top: .1rem;
-        left: .1rem;
-        bottom: -.1rem;
-        right: -.1rem;
-        background: var(--primary-gradient);
-        z-index: -1;
+        color: var(--primary-link-hover)
     }
 
     #navigation {
         position: fixed;
         top: 0;
         width: 100vw;
-        background-color: var(--primary-bg-color);
+        background-color: black;
         z-index: 1000;
     }
-
-    /* @media only screen and (max-width: 700px){
-        #navigation {
-            width: 100vw;
-            top: 0;
-            right: 0;
-            bottom: 0;
-        }
-
-        #navigation>ul {
-            flex-direction: column;
-            justify-content: flex-end;
-            align-items: flex-end;
-        }
-    } */
 
     #navigation>ul {
         display: flex;
         justify-content: flex-end;
-        align-items: center;
+        height: 5rem;
         flex-wrap: wrap;
     }
 
     #navigation>ul>li {
         list-style: none;
-        padding: 0 1rem;
-        margin: .5rem .1rem;
-        position: relative;
         background-color: var(--primary-bg-color);
-    }
-
-    #navigation>ul>li::after {
-        content: "";
-        position: absolute;
-        top: 0rem;
-        left: 0rem;
-        bottom: 0rem;
-        right: 0rem;
-        background: var(--primary-gradient);
-        z-index: -1;
-        transition: all 300ms ease-in-out;
-    }
-
-    #navigation>ul>li:hover::after {
-        content: "";
-        position: absolute;
-        top: .1rem;
-        left: .1rem;
-        bottom: -.1rem;
-        right: -.1rem;
-        background: var(--primary-gradient);
-        z-index: -1;
+        padding: 0 .5rem;
+        border: .5rem solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 4.6rem;
     }
 
     #personal-details {
         display: flex;
         align-items: flex-end;
         flex-wrap: wrap;
-        margin-top: 5rem;
+        margin-top: 4rem;
+        background-color: var(--primary-bg-color);
+        border-bottom: 1rem solid #000000;
     }
 
     #personal-details>div:first-child>img {
@@ -568,6 +514,27 @@
         position: relative;
     }
 
+    .profile-img {
+        animation: clip-animate 5s linear infinite normal;
+    }
+
+    @keyframes clip-animate {
+        0%{clip-path: polygon(13.9% 17.92%, 81.36% 6.88%, 88.13% 83.13%, 4.92% 79.17%)}
+        50%{clip-path: polygon(15.9% 19.92%, 80.36% 8.88%, 86.13% 85.13%, 6.92% 81.17%)}
+        100%{clip-path: polygon(13.9% 17.92%, 81.36% 6.88%, 88.13% 83.13%, 4.92% 79.17%)}
+    }
+    #personal-details > div:first-child::before {
+        content: "";
+        position: absolute;
+        top: 0rem;
+        left: -1rem;
+        bottom: -1rem;
+        right: -1rem;
+        margin: 2rem;
+        background: repeating-linear-gradient(-45deg, transparent, transparent 5px, rgba(255,255,255,.1) 5px, rgba(255,255,255,.1) 10px),var(--primary-gradient);
+        clip-path: polygon(13.23% 12.92%, 78.31% -1.25%, 5.25% 8.07%, 6.95% 83.75%);
+    }
+
     #personal-details > div:first-child::after {
         content: "";
         position: absolute;
@@ -576,8 +543,8 @@
         bottom: -1rem;
         right: -1rem;
         margin: 2rem;
-        background: var(--primary-gradient);
-        z-index: -1;
+        background: repeating-linear-gradient(-45deg, transparent, transparent 5px, rgba(255,255,255,.1) 5px, rgba(255,255,255,.1) 10px),var(--primary-gradient);
+        clip-path: polygon(87.12% 85.63%, 81.36% 6.88%, 99.66% 92.92%, 0.85% 93.13%)
     }
 
     #personal-details>div:last-child {
@@ -589,9 +556,66 @@
         padding: var(--paragraph-padding);
     }
 
+    #about-me{
+        background-color: #eee;
+        padding: 1rem;
+        margin: 1rem;
+        box-shadow: 0 0 0 .5rem #111;
+        color: #3a3035;
+        position: relative;
+    }
+    #about-me::before{
+        content: "";
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        border-left: 1rem solid transparent;
+        border-right: 1rem solid #eee;
+        border-top: 1rem solid #eee;
+        border-bottom: 1rem solid transparent;
+        left: -2rem;
+        top: 50%;
+        z-index: 1;
+    }
+    #about-me::after{
+        content: "";
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        border-left: 2rem solid transparent;
+        border-right: 2rem solid #111;
+        border-top: 2rem solid #111;
+        border-bottom: 2rem solid transparent;
+        left: -4rem;
+        top: calc(50% - .85rem);
+        z-index: 0;
+    }
+
+    @media only screen and (max-width: 744px){
+        #about-me::before{
+            border-left: 1rem solid #eee;
+            border-right: 1rem solid transparent;
+            border-top: 1rem solid transparent;
+            border-bottom: 1rem solid #eee;
+            left: 10%;
+            top: -2rem;
+        }
+        #about-me::after{
+            border-left: 1.5rem solid #111;
+            border-right: 1.5rem solid transparent;
+            border-top: 1.5rem solid transparent;
+            border-bottom: 1.5rem solid #111;
+            left: calc(10% - .4rem);
+            top: -3rem;
+        }
+    }
+
     #projects{
         padding: var(--section-padding);
-        margin: var(--section-margin);
+        background-color: var(--primary-bg-color);
+        border-top: 1rem solid #000000;
+        border-bottom: 1rem solid #000000;
+        color: #eee;
     }
 
     #projects>ul {
@@ -600,13 +624,43 @@
         justify-content: space-around;
     }
 
+    #projects>ul>li:nth-child(2n) {
+        transform: skewY(4deg);
+    }
+    #projects>ul>li:nth-child(2n+1) {
+        transform: skewY(-4deg);
+    }
+    #projects>ul>li:nth-child(2n)>a {
+        transform: skewY(-4deg);
+    }
+    #projects>ul>li:nth-child(2n+1)>a {
+        transform: skewY(4deg);
+    }
+
     #projects>ul>li {
         flex: var(--flex-card);
         list-style: none;
-        margin: 1rem;
+        margin: 2rem 1rem;
         padding: 1rem;
         position: relative;
-        background-color: var(--primary-bg-color);
+        background: #f78700;
+        box-shadow: 0 0 0 .5rem black;
+        transition: box-shadow 100ms ease-in-out, transform 300ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+
+    #projects>ul>li::before {
+        content: "";
+        position: absolute;
+        top: -1rem;
+        left: -1rem;
+        bottom: -1rem;
+        right: -1rem;
+        background-image: radial-gradient(rgba(0,0,0,1) 20%, transparent 20%), radial-gradient(rgba(0,0,0,1) 20%, transparent 20%);
+        background-position: 0 0, 25px 25px;
+        background-size: 10px 10px;
+        z-index: -2;
+        opacity: 0;
+        transition: opacity 200ms 100ms ease-in-out;
     }
 
     #projects>ul>li::after {
@@ -616,20 +670,22 @@
         left: 0rem;
         bottom: 0rem;
         right: 0rem;
-        background: var(--primary-gradient);
+        background: #f78700;
         z-index: -1;
         transition: all 300ms ease-in-out;
     }
 
-    #projects>ul>li:hover::after {
-        content: "";
-        position: absolute;
-        top: .1rem;
-        left: .1rem;
-        bottom: -.1rem;
-        right: -.1rem;
-        background: var(--primary-gradient);
-        z-index: -1;
+    #projects>ul>li:hover {
+        box-shadow: 0 0 0 0rem black;
+    }
+    #projects>ul>li:hover::before {
+        opacity: 1;
+    }
+    #projects>ul>li:hover:nth-child(2n) {
+        transform: scale(1.05) skewY(4deg);
+    }
+    #projects>ul>li:hover:nth-child(2n+1) {
+        transform: scale(1.05) skewY(-4deg);
     }
 
     #projects>ul>li>a {
@@ -660,35 +716,95 @@
     #projects>ul>li>a>div>span {
         padding: .1rem 1rem;
         margin: .1rem;
-        border-radius: 10rem;
-        background: var(--primary-gradient);
+        background:#139b13;
         color: var(--primary-text-color);
+        transform: skewY(-1deg);
+        position: relative;
+    }
+    #projects>ul>li>a>div>span::before {
+        content: "";
+        background:#139b13;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+    }
+    #projects>ul>li>a>div>span::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        transform: translate(8px, 8px);
+        background-image: repeating-linear-gradient(-45deg, transparent, transparent 2px, rgba(0,0,0,.2) 2px, rgba(0,0,0,.2) 4px);
+        z-index: -11;
     }
 
     #skills {
         padding: var(--section-padding);
-        margin: var(--section-margin);
+        background-color: var(--primary-bg-color);
+        border-top: 1rem solid #000000;
+        border-bottom: 1rem solid #000000;
     }
 
     #skills>ul {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
     }
 
     #skills>ul>li {
         list-style: none;
-        padding: .5rem 2rem;
-        margin: .25rem;
-        border-radius: 10rem;
-        background: var(--primary-gradient);
+        padding: 1rem 0rem;
         color: var(--primary-text-color);
+        display: flex;
+        align-items: center;
+        background-color:#db7e04;
+        background-color:#2d3aa8;
+        margin: .5rem 1rem;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 500px;
+    }
+
+    #skills>ul>li>*:first-child{
+        width: 30%;
+        text-align: right;
+    }
+
+    .skill-bar {
+        width: 70%;
         text-align: center;
+        background: repeating-linear-gradient(45deg, transparent, transparent 5px, rgba(255,255,255,.1) 5px, rgba(255,255,255,.1) 10px),var(--primary-gradient-r);
+        margin: 0 .5rem;
+        padding: 1rem 0;
+        position: relative;
+        border-radius: 0.2rem;
+        overflow: hidden;
+    }
+    .skill-bar>:first-child {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 100%;
+        background-color: #945400;
+        background-color: #160094;
+        transition: left 500ms ease;
+    }
+    .skill-bar>:last-child {
+        position: relative;
+        padding: 1rem 0;
     }
 
     #employment-history {
         padding: var(--section-padding);
-        margin: var(--section-margin);
+        background-color: var(--primary-bg-color);
+        border-top: 1rem solid #000000;
+        border-bottom: 1rem solid #000000;
 
     }
 
@@ -704,7 +820,7 @@
         margin: 1rem;
         padding: 1rem;
         position: relative;
-        background-color: var(--primary-bg-color);
+        transition: transform 300ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
     }
 
     #employment-history>ul>li::after {
@@ -714,20 +830,37 @@
         left: 0rem;
         bottom: 0rem;
         right: 0rem;
-        background: var(--primary-gradient);
-        z-index: -1;
-        transition: all 300ms ease-in-out;
+        background-color: #1f0062;;
+        box-shadow: 0 0 0 .5rem black;
+        border-radius: 4rem 0rem;
+        transition: all 200ms ease-in-out;
+    }
+
+    #employment-history>ul>li::before {
+        content: "";
+        position: absolute;
+        top: 0rem;
+        left: 0rem;
+        bottom: 0rem;
+        right: 0rem;
+        border-radius: 4.5rem 0rem;
+        background: radial-gradient(rgb(255, 255, 255) 30%, transparent 30%), radial-gradient(rgb(255, 255, 255) 20%, transparent 20%);
+        background-position: 0 0, 5px 5px;
+        background-size: 10px 10px;
+        transform: translate(0rem, 0rem);
+        transition: transform 200ms ease-in-out;
+    }
+
+    #employment-history>ul>li:hover{
+        transform: scale(1.05);
     }
 
     #employment-history>ul>li:hover::after {
-        content: "";
-        position: absolute;
-        top: .1rem;
-        left: .1rem;
-        bottom: -.1rem;
-        right: -.1rem;
-        background: var(--primary-gradient);
-        z-index: -1;
+        box-shadow: 0 0 0 0rem black;
+    }
+
+    #employment-history>ul>li:hover::before {
+        transform: translate(1rem, 1rem);
     }
 
     #employment-history>ul>li>a {
@@ -735,6 +868,13 @@
         flex-direction: column;
         align-items: center;
         height: 100%;
+        position: relative;
+        z-index: 1;
+        margin: .5rem;
+    }
+
+    #employment-history>ul>li>a>ul {
+        list-style: square;
     }
 
     #employment-history>ul>li>a>div {
@@ -757,14 +897,25 @@
         flex: 0 0 15rem;
     }
 
+    .kimelab-logo {
+        background-color:white;
+        object-fit: contain !important;
+        border: 1.75rem solid white;
+        width: 80% !important;
+        height: 80% !important;
+    }
+
     #educational-history {
         padding: var(--section-padding);
-        margin: var(--section-margin);
+        background-color: var(--primary-bg-color);
+        border-top: 1rem solid #000000;
+        border-bottom: 1rem solid #000000;
     }
 
     #educational-history>ul {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     #educational-history>ul>li {
@@ -774,33 +925,60 @@
         padding: 1rem;
         position: relative;
         background-color: var(--primary-bg-color);
+        background-color:#5a008c;
+        box-shadow: .5rem .5rem#b5aa00;
     }
 
-    #educational-history>ul>li::after {
-        content: "";
-        position: absolute;
-        top: 0rem;
-        left: 0rem;
-        bottom: 0rem;
-        right: 0rem;
-        background: var(--primary-gradient);
-        z-index: -1;
-        transition: all 300ms ease-in-out;
+    .school {
+        background-color: #127e9f;
+        padding: 1rem;
+        margin-bottom: 2rem;
+        margin-top: -2rem;
+        font-size: 1.2em;
+        transform: skewY(-1deg);
     }
 
-    #educational-history>ul>li:hover::after {
+    .job-title {
+        padding: 1rem;
+        color: #fe9;
+        transform: skewY(-1deg);
+        margin-top: -3rem;
+        margin-bottom: 2rem;
+        position: relative;
+    }
+    .job-title:after {
         content: "";
         position: absolute;
-        top: .1rem;
-        left: .1rem;
-        bottom: -.1rem;
-        right: -.1rem;
-        background: var(--primary-gradient);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background:#d5197a;
+        color: #fe9;
         z-index: -1;
+    }
+    .job-title:before {
+        content: "";
+        position: absolute;
+        top: .5rem;
+        bottom: -.5rem;
+        left: .5rem;
+        right: -.5rem;
+        background-image: repeating-linear-gradient(-45deg, transparent, transparent 2px, rgba(255, 238, 153, .8) 2px, rgba(255, 238, 153,.8) 4px);
+        z-index: -1;
+    }
+    .section-heading {
+        padding: .5rem 2rem;
+        border: .5rem solid black;
+        position: sticky;
+        top: 4rem;
+        z-index: 10;
+        margin: var(--section-heading-margin);
     }
 
     .fill {
-        fill: #7593cb
+        fill: #7593cb;
+        fill: #40577f;
     }
 
     .contain {
@@ -809,5 +987,77 @@
 
     .xshell-logo {
         fill: #bf5461;
+    }
+
+    .polka-dot {
+        background-image: radial-gradient(rgba(255,255,255,.1) 20%, transparent 20%), radial-gradient(rgba(255,255,255,.1) 20%, transparent 20%);
+        background-position: 0 0, 25px 25px;
+        background-size: 50px 50px;
+    }
+
+    .polka-dot__small {
+        background-position: 0 0, 5px 5px;
+        background-size: 10px 10px;
+    }
+
+    .polka-dot__med {
+        background-position: 0 0, 10px 10px;
+        background-size: 20px 20px;
+    }
+
+    .stripe-bg {
+        background-image: repeating-linear-gradient(-45deg,
+        transparent,
+        transparent 20px,
+        rgba(255,255,255,.1) 20px,
+        rgba(255,255,255,.1) 40px);
+    }
+    .stripe-bg__med {
+        background-image: repeating-linear-gradient(-45deg,
+        transparent,
+        transparent 10px,
+        rgba(255,255,255,.1) 10px,
+        rgba(255,255,255,.1) 20px);
+    }
+    .stripe-bg__small {
+        background-image: repeating-linear-gradient(-45deg,
+        transparent,
+        transparent 5px,
+        rgba(255,255,255,.1) 5px,
+        rgba(255,255,255,.1) 10px);
+    }
+
+    .triangle {
+        background:
+        linear-gradient(115deg, transparent 75%, rgba(255,255,255,.1) 75%) 0 0,
+        linear-gradient(245deg, transparent 75%, rgba(255,255,255,.1) 75%) 0 0,
+        linear-gradient(115deg, transparent 75%, rgba(255,255,255,.1) 75%) 14px -30px,
+        linear-gradient(245deg, transparent 75%, rgba(255,255,255,.1) 75%) 14px -30px;
+        background-size: 30px 60px;
+    }
+
+    .circles {
+        background: repeating-radial-gradient(circle at 50%, rgba(255,255,255,.1), rgba(255,255,255,.1) 10%, transparent 10%,
+    transparent 20%);
+        background-color: rgba(0, 0, 0, 0);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-size: auto;
+        background-position: 0 0, 50px 50px;
+        background-size: 120px 120px;
+    }
+
+    .shippo {
+        background-image: radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%),
+        radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%);
+        background-size:40px 40px;
+        background-position:0 0, 20px 20px;
+    }
+
+    .waves {
+        background:
+        radial-gradient(ellipse 110% 100% at 50% 115%, transparent 20%, rgba(255,255,255,.1) 21%, rgba(255,255,255,.1) 34%, transparent 35%, transparent),
+        radial-gradient(ellipse 110% 100% at 50% -15%, transparent 20%, rgba(255,255,255,.1) 21%, rgba(255,255,255,.1) 34%, transparent 35%, transparent) -20px 0;
+        background-size: 40px 40px;
     }
 </style>
