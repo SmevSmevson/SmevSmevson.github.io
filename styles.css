@@ -516,6 +516,7 @@ a:hover, a:link:hover{
 
 #employment-history>ul:last-of-type>li {
     flex: 0 0 15rem;
+    margin-top: 5rem;
 }
 
 .kimelab-logo {
