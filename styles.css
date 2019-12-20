@@ -303,7 +303,8 @@ a:hover, a:link:hover{
 }
 
 #projects>ul>li>a>strong {
-    font-size: 2.5em;
+    font-size: 2em;
+    font-weight: bold;
     margin: .5rem auto;
 }
 
@@ -455,30 +456,46 @@ a:hover, a:link:hover{
     transition: transform 200ms ease-in-out;
 }
 
-#employment-history>ul>li:hover{
+#employment-history>ul>li:hover,
+#employment-history>ul:last-child>li{
     transform: scale(1.05);
 }
 
-#employment-history>ul>li:hover::after {
+#employment-history>ul>li:hover::after,
+#employment-history>ul:last-child>li::after {
     box-shadow: 0 0 0 0rem black;
 }
 
-#employment-history>ul>li:hover::before {
+#employment-history>ul>li:hover::before,
+#employment-history>ul:last-child>li::before {
     transform: translate(1rem, 1rem);
 }
 
-#employment-history>ul>li>a {
+#employment-history>ul>li>a,
+#employment-history>ul>li>div  {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 100%;
     position: relative;
-    z-index: 1;
+    z-index: 5;
     margin: .5rem;
+}
+
+#employment-history>ul>li>div {
+    color: var(--primary-link-hover);
 }
 
 #employment-history>ul>li>a>ul {
     list-style: square;
+}
+#employment-history>ul>li>div>ul {
+    list-style: square;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+    margin-bottom: 2rem;
 }
 
 #employment-history>ul>li>a>div {
