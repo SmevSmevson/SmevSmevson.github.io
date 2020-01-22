@@ -1,3 +1,5 @@
+"use-strict"
+
 let last_known_scroll_position = 0;
 let ticking = false;
 let skillSection = document.getElementById('skills');
