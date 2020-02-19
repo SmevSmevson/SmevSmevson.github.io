@@ -295,11 +295,17 @@ a:hover, a:link:hover{
     align-items: center;
 }
 
+#projects>ul>li>a>svg {
+    width: 15rem;
+    height: 15rem;
+}
+
 #projects>ul>li>a>img {
     width: 15rem;
     height: 15rem;
     object-fit: cover;
     object-position: center;
+    border-radius: 2px;
 }
 
 #projects>ul>li>a>strong {
