@@ -3,6 +3,7 @@
 let last_known_scroll_position = 0;
 let ticking = false;
 let skillSection = document.getElementById('skills');
+let dateOfBirth = document.getElementById('DOB');
 let skillList = skillSection.getElementsByTagName('li');
 
 initSkillBars();
@@ -27,3 +28,13 @@ function getScrollY() {
         window.removeEventListener('scroll', getScrollY, { passive: true });
     }
 }
+
+function calculate_age(dob) { 
+    var diff_ms = Date.now() - dob.getTime();
+    var age_dt = new Date(diff_ms); 
+  
+    return Math.abs(age_dt.getUTCFullYear() - 1970);
+}
+
+dateOfBirth.innerText = `1989/12/20 (${calculate_age(new Date(1989, 12, 20))} years old)`
+// console.log(calculate_age(new Date(1989, 12, 20)));
