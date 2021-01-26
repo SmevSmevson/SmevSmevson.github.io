@@ -1,6 +1,6 @@
 "use-strict"
 
-var version = 2;
+var version = 3;
 var cacheName = `kevins-portfolio-${version}`;
 
 var urlsToCache = {
@@ -14,6 +14,7 @@ var urlsToCache = {
         "/media/kimelab_logo.png",
         "/media/lt_logo.jpg",
         "/media/nulove_logo.png",
+        "/media/rakuten_r_logo.png",
         "/media/sticky_baby.png",
         "/media/unpredictaball.png",
         "/media/xshell_logo.png",
