@@ -722,19 +722,19 @@
     }
 
     #skills {
-        order: 4
-    }
-
-    #projects {
-        order: 3
-    }
-
-    #employment-history {
         order: 2
     }
 
-    #educational-history {
+    #projects {
         order: 5
+    }
+
+    #employment-history {
+        order: 3
+    }
+
+    #educational-history {
+        order: 4
     }
 
     body > div {
@@ -792,15 +792,20 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        height: 6cm;
+        height: 4cm;
     }
 
     #skills > ul > li {
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
         margin: 1mm;
         margin-right: 15mm;
         margin-left: 15mm;
+    }
+
+    #skills > ul > li > .skill-bar {
+        display: none;
+        visibility: hidden;
     }
 
     #projects > ul > li {
@@ -896,6 +901,10 @@
 
     #employment-history > .sub-heading + ul > li {
         margin-bottom: 4mm;
+    }
+
+    .start-on-new-page {
+        page-break-before: always;
     }
 
     #educational-history > ul > li {
